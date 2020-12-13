@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: http://kodawari.jun3010.me/sitemap.xml
+Sitemap: https://kodawari.jun3010.me/sitemap.xml
