@@ -4,7 +4,10 @@
 #
 # This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
-
+# hugoコマンドでの出力先をpublicからdocsに変更する。これはGitHub Pageに合わせた仕様変更
+# ついでに下位ディレクトリもちゃんと認識してくれるようにオプション追加
+publishDir = "docs"
+canonifyurls = true
 # Title of your site
 title = "こだわりらいふ"
 
