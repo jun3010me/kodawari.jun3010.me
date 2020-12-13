@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nelson Bighetti | こだわりらいふ</title>
-    <link>kodawari.jun3010.me/author/nelson-bighetti/</link>
-      <atom:link href="kodawari.jun3010.me/author/nelson-bighetti/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://kodawari.jun3010.me/author/nelson-bighetti/</link>
+      <atom:link href="http://kodawari.jun3010.me/author/nelson-bighetti/index.xml" rel="self" type="application/rss+xml" />
     <description>Nelson Bighetti</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>jun3010me@gmail.com</copyright><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/kodawari.jun3010.me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>http://kodawari.jun3010.me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Nelson Bighetti</title>
-      <link>kodawari.jun3010.me/author/nelson-bighetti/</link>
+      <link>http://kodawari.jun3010.me/author/nelson-bighetti/</link>
     </image>
     
     <item>
       <title>An example conference paper</title>
-      <link>kodawari.jun3010.me/publication/example/</link>
+      <link>http://kodawari.jun3010.me/publication/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>kodawari.jun3010.me/publication/example/</guid>
+      <guid>http://kodawari.jun3010.me/publication/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
