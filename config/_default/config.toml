@@ -7,14 +7,13 @@
 # hugoコマンドでの出力先をpublicからdocsに変更する。これはGitHub Pageに合わせた仕様変更
 # ついでに下位ディレクトリもちゃんと認識してくれるようにオプション追加
 publishDir = "docs"
-canonifyurls = true
 # Title of your site
 title = "こだわりらいふ"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "kodawari.jun3010.me"
-
+canonifyurls = true
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
 copyright = "jun3010me@gmail.com"
