@@ -11,7 +11,7 @@ role: Professor of Artificial Intelligence
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: Nihon Fukushi University
-  url: https://www.nfu.jp
+  url: https://www.n-fukushi.ac.jp
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
