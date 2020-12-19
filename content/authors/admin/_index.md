@@ -41,7 +41,7 @@ education:
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
 - icon: wordpress
-  icon_pack: fas
+  icon_pack: fab
   link: 'https://jun3010.me'
 - icon: twitter
   icon_pack: fab
