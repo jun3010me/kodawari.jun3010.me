@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | こだわりらいふ</title>
-    <link>https://kodawari.jun3010.me/post/</link>
-      <atom:link href="https://kodawari.jun3010.me/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>jun3010me@gmail.com</copyright><lastBuildDate>Sun, 20 Dec 2020 03:02:14 +0000</lastBuildDate>
+    <title>tagtag | こだわりらいふ</title>
+    <link>https://kodawari.jun3010.me/tag/tagtag/</link>
+      <atom:link href="https://kodawari.jun3010.me/tag/tagtag/index.xml" rel="self" type="application/rss+xml" />
+    <description>tagtag</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>jun3010me@gmail.com</copyright><lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://kodawari.jun3010.me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Posts</title>
-      <link>https://kodawari.jun3010.me/post/</link>
+      <title>tagtag</title>
+      <link>https://kodawari.jun3010.me/tag/tagtag/</link>
     </image>
-    
-    <item>
-      <title>Test</title>
-      <link>https://kodawari.jun3010.me/post/test/</link>
-      <pubDate>Sun, 20 Dec 2020 03:02:14 +0000</pubDate>
-      <guid>https://kodawari.jun3010.me/post/test/</guid>
-      <description>&lt;p&gt;ここに文字を入れたら良いの？&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>testda</title>
