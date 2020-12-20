@@ -13,6 +13,26 @@
     </image>
     
     <item>
+      <title> ここにタイトル</title>
+      <link>https://kodawari.jun3010.me/post/2020-12-20-sharptest/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://kodawari.jun3010.me/post/2020-12-20-sharptest/</guid>
+      <description>&lt;p&gt;#ここにタイトル
+これが本文&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title> 今度こそタイトルだ</title>
+      <link>https://kodawari.jun3010.me/post/2020-12-20-kondokoso/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://kodawari.jun3010.me/post/2020-12-20-kondokoso/</guid>
+      <description>&lt;h1 id=&#34;今度こそタイトルだ&#34;&gt;今度こそタイトルだ&lt;/h1&gt;
+&lt;p&gt;これが本文だ&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>testda</title>
       <link>https://kodawari.jun3010.me/post/2020-12-20-testda/</link>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
