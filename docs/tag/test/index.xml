@@ -5,12 +5,70 @@
     <link>https://kodawari.jun3010.me/tag/test/</link>
       <atom:link href="https://kodawari.jun3010.me/tag/test/index.xml" rel="self" type="application/rss+xml" />
     <description>test</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>jun3010me@gmail.com</copyright><lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>jun3010me@gmail.com</copyright><lastBuildDate>Mon, 21 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://kodawari.jun3010.me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>test</title>
       <link>https://kodawari.jun3010.me/tag/test/</link>
     </image>
+    
+    <item>
+      <title> 画像がある前提でタグを処理した記事テスト</title>
+      <link>https://kodawari.jun3010.me/post/2020-12-21/2020-12-21-image-test/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://kodawari.jun3010.me/post/2020-12-21/2020-12-21-image-test/</guid>
+      <description>&lt;p&gt;これが成功したら、画像の保存場所を考えるんだ。&lt;/p&gt;
+&lt;p&gt;ここで画像の挿入テストをしてみる。
+/image.jpg&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title> 画像がある前提でタグを処理した記事テスト</title>
+      <link>https://kodawari.jun3010.me/post/2020-12-21/2020-12-21-imgtest/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://kodawari.jun3010.me/post/2020-12-21/2020-12-21-imgtest/</guid>
+      <description>&lt;p&gt;これが成功したら、画像の保存場所を考えるんだ。&lt;/p&gt;
+&lt;p&gt;ここで画像の挿入テストをしてみる。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-a-caption&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;image.jpg&#34; data-caption=&#34;A caption&#34;&gt;
+
+
+  &lt;img src=&#34;image.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    A caption
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title></title>
