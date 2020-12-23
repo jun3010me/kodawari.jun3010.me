@@ -33,6 +33,21 @@
     </item>
     
     <item>
+      <title> さぁ、これでmwebからhugoできますよ</title>
+      <link>https://kodawari.jun3010.me/post/2020-12-23/2020-12-23-imagetest2/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://kodawari.jun3010.me/post/2020-12-23/2020-12-23-imagetest2/</guid>
+      <description>&lt;p&gt;タグを置き換えるテストをしてみている。
+これでうまくいくはずだ。
+で、imageフォルダはその日のフォルダの中に入るから、同じ日付の中で複数更新したら、その画像はimageに溜まっていくけど、まぁみづらくなならないと思うわきっと。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../media/version=1&amp;amp;uuid=91DA38A8-CF5D-43B6-B503-E1385F62E403&amp;amp;mode=compatible.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../media/version=1&amp;amp;uuid=7D2983B0-1DE4-4CDB-A2B8-5433FFE523A6&amp;amp;mode=compatible.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../media/version=1&amp;amp;uuid=8AAE5A3B-1231-4DA4-8DC5-4CE7E4F5DECE&amp;amp;mode=compatible.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;これで画像もいけるぜ。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title> 画像タグを試してみる</title>
       <link>https://kodawari.jun3010.me/post/2020-12-23/2020-12-23-mweb-imgtest/</link>
       <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
