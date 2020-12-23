@@ -18,7 +18,7 @@
       <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://kodawari.jun3010.me/post/2020-12-23/2020-12-23-mweb-imgtest/</guid>
       <description>&lt;p&gt;mwebで画像を挿入して、Hugoした時のテストをしてみる。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;media/version=1&amp;amp;uuid=F6757F82-E932-411A-A39B-B616B93E63EA&amp;amp;mode=compatible.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../media/version=1&amp;amp;uuid=F6757F82-E932-411A-A39B-B616B93E63EA&amp;amp;mode=compatible.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;media/version=1&amp;amp;uuid=23551DDC-0985-494C-ADB8-7C3FD6CDA665&amp;amp;mode=compatible.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>

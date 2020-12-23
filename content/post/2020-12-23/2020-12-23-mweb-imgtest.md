@@ -31,6 +31,6 @@ projects: []
 mwebで画像を挿入して、Hugoした時のテストをしてみる。
 
 
-![](media/version=1&uuid=F6757F82-E932-411A-A39B-B616B93E63EA&mode=compatible.jpeg)
+![](../media/version=1&uuid=F6757F82-E932-411A-A39B-B616B93E63EA&mode=compatible.jpeg)
 
 ![](media/version=1&uuid=23551DDC-0985-494C-ADB8-7C3FD6CDA665&mode=compatible.jpeg)
