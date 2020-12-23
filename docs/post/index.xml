@@ -5,12 +5,23 @@
     <link>https://kodawari.jun3010.me/post/</link>
       <atom:link href="https://kodawari.jun3010.me/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>jun3010me@gmail.com</copyright><lastBuildDate>Mon, 21 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>jun3010me@gmail.com</copyright><lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://kodawari.jun3010.me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://kodawari.jun3010.me/post/</link>
     </image>
+    
+    <item>
+      <title> 画像タグを試してみる</title>
+      <link>https://kodawari.jun3010.me/post/2020-12-23/2020-12-23-mweb-imgtest/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://kodawari.jun3010.me/post/2020-12-23/2020-12-23-mweb-imgtest/</guid>
+      <description>&lt;p&gt;mwebで画像を挿入して、Hugoした時のテストをしてみる。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;media/version=1&amp;amp;uuid=F6757F82-E932-411A-A39B-B616B93E63EA&amp;amp;mode=compatible.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;media/version=1&amp;amp;uuid=23551DDC-0985-494C-ADB8-7C3FD6CDA665&amp;amp;mode=compatible.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title> 画像がある前提でタグを処理した記事テスト</title>
