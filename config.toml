@@ -15,11 +15,12 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
+#ここがサイトのメニューとか設定とかの場所
 [params]
 
     # Source Code repository section
     description = "put your description"
-    github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    github_repository = "https://github.com/jun3010me/kodawari.jun3010.me"
     version = "0.9.6"
 
     # Documentation repository section
@@ -35,7 +36,7 @@ enableMissingTranslationPlaceholders = false
     # Open Graph settings for each page are set on the front matter.
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "Hugo Techdoc Theme"
+    title = "こだわりらいふ"
     images = ["images/og-image.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
