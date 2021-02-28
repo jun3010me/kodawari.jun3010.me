@@ -1,7 +1,7 @@
-baseURL = "https://example.com"
+baseURL = "https://kodawari.jun3010.me"
 
-languageCode = "en-us"
-DefaultContentLanguage = "en"
+languageCode = "jp"
+DefaultContentLanguage = "jp"
 title = "Ace documentation"
 theme = "ace-documentation"
 pygmentsCodeFences = true
@@ -13,6 +13,9 @@ enableMissingTranslationPlaceholders = false
 
 # Enable Google Analytics by entering your tracking id
 googleAnalytics = ""
+
+publishDir = "docs"
+canonifyurls = true
 
 [params]
 ordersectionsby = "weight" # ordersectionsby = "title"
