@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="alternate" type="application/rss+xml" href="https://kodawari.jun3010.me/categories/index.xml" title="こだわりらいふ" />
-    <link rel="canonical" href="https://kodawari.jun3010.me/categories/">
+    <link rel="canonical" href="https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/table/">
 
     <title>
         
-        Categories | こだわりらいふ
+        Table | こだわりらいふ
         
     </title>
 
@@ -136,7 +135,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/" class="nav-item my-1 haschildren
+    <li data-nav-id="/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/" class="nav-item my-1 parent haschildren
         ">
         
         <a class="nav-link p-0" href="https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/"><h6>Shortcodes</h6></a>
@@ -189,7 +188,7 @@
                     Panel
                 </a>
         </li>
-        <li data-nav-id="/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/table/" class="nav-item my-1">
+        <li data-nav-id="/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/table/" class="nav-item my-1 active">
                 
                  <a href="https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/table/" class="nav-link p-0">
                     Table
@@ -204,14 +203,100 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#parameters">Parameters</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
-<h1>Categories</h1>
+<h1>Table</h1>
 
+<p>The table shortcode allows you to wrap your tables in a <code>table</code> class, providing styling to the table such as borders, stripes and hover effects.</p>
+
+<div class="table " role="alert">
+    <table>
+<thead>
+<tr>
+<th>Tables</th>
+<th style="text-align:center">are</th>
+<th style="text-align:right">cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 3 is</td>
+<td style="text-align:center">right-aligned</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td>zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<h2 id="usage">Usage</h2>
+<p>Place the following shortcode on the page
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_fffa18fb55">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_fffa18fb55">
+    <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+{{<span style="color:#111">&lt;</span> <span style="color:#f92672">table</span> <span style="color:#75af00">style</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;STYLE&#34;</span> <span style="color:#111">&gt;</span>}}
+| Tables        | are           | cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+{{<span style="color:#111">&lt;</span> <span style="color:#111">/</span><span style="color:#f92672">table</span> <span style="color:#111">&gt;</span>}}
+
+</code></pre></div>
+    </div>
+</div>
+
+
+
+</p>
+<h3 id="parameters">Parameters</h3>
+<h4 id="style">Style</h4>
+<p>The style parameter is directly applied to the table as a class in the format <em>&quot;{STYLE}&quot;</em>. Bootstrap comes with several styles that can be used with this:</p>
+<ul>
+<li>table-striped</li>
+<li>table-dark</li>
+<li>table-bordered</li>
+<li>table-hover</li>
+</ul>
 
 
     
@@ -223,7 +308,8 @@
 
     <h4 class="text-white text-center">Read more</h4>
 
-    <div class="d-flex justify-content-center"><a class="p-1 ml-3 d-inline-block text-white text-right" href="https://kodawari.jun3010.me/getting-started/" title="Getting started">Getting started<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/panel/" title="Panel"><i class="fas fa-chevron-left p-1"></i>Panel</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/alerts/" title="Alerts">Alerts<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

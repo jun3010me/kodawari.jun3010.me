@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="alternate" type="application/rss+xml" href="https://kodawari.jun3010.me/categories/index.xml" title="こだわりらいふ" />
-    <link rel="canonical" href="https://kodawari.jun3010.me/categories/">
+    <link rel="canonical" href="https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/code/">
 
     <title>
         
-        Categories | こだわりらいふ
+        Code | こだわりらいふ
         
     </title>
 
@@ -136,7 +135,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/" class="nav-item my-1 haschildren
+    <li data-nav-id="/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/" class="nav-item my-1 parent haschildren
         ">
         
         <a class="nav-link p-0" href="https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/"><h6>Shortcodes</h6></a>
@@ -159,7 +158,7 @@
                     Childpages
                 </a>
         </li>
-        <li data-nav-id="/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/code/" class="nav-item my-1">
+        <li data-nav-id="/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/code/" class="nav-item my-1 active">
                 
                  <a href="https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/code/" class="nav-link p-0">
                     Code
@@ -204,14 +203,125 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#usage">Usage</a>
+      <ul>
+        <li></li>
+        <li><a href="#parameters">Parameters</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
-<h1>Categories</h1>
+<h1>Code</h1>
 
+<p>Add code to your page with syntax highlighting and a copy button so your users can easily copy the code to their clipboard with the press of a button. The code may be entered inside the shortcode or come from an external file.</p>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_3801f135d0">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_3801f135d0">
+    <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+<span style="color:#111">&lt;</span><span style="color:#f92672">div</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;mydiv bg-primary shadow text-white&#34;</span><span style="color:#111">&gt;</span>
+	<span style="color:#111">&lt;</span><span style="color:#f92672">h1</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;title&#34;</span><span style="color:#111">&gt;</span>Hi there<span style="color:#111">&lt;/</span><span style="color:#f92672">h1</span><span style="color:#111">&gt;</span>
+	<span style="color:#111">&lt;</span><span style="color:#f92672">p</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;lead&#34;</span><span style="color:#111">&gt;</span>I&#39;m inside a code shortcode. Check out my syntax highlighting!.<span style="color:#111">&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+<span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<h2 id="usage">Usage</h2>
+<p>Simply place the following shortcode on the page</p>
+<h4 id="code-in-the-shortcode">Code in the shortcode</h4>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_8c0d39f544">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_8c0d39f544">
+    <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+{{<span style="color:#111">&lt;</span> <span style="color:#f92672">code</span> <span style="color:#75af00">lang</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;LANG&#34;</span> <span style="color:#111">&gt;</span>}} [your code] {{<span style="color:#111">&lt;</span> <span style="color:#111">/</span><span style="color:#f92672">code</span> <span style="color:#111">&gt;</span>}}
+
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<h4 id="code-from-a-file">Code from a file</h4>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_d31e4d55f3">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_d31e4d55f3">
+    <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+{{<span style="color:#111">&lt;</span> <span style="color:#f92672">code</span> <span style="color:#75af00">lang</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;LANG&#34;</span> <span style="color:#75af00">file</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;code/mycode.html&#34;</span> <span style="color:#111">&gt;</span>}}
+
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<h3 id="parameters">Parameters</h3>
+<h4 id="lang"><em>lang</em></h4>
+<p>The lang parameter defines the language to be used for code highlighting. You can find a complete list of supported languages <a href="https://gohugo.io/content-management/syntax-highlighting/#list-of-chroma-highlighting-languages" target="_blank">here</a>.</p>
+<p>Example: <code>lang=&ldquo;html&rdquo;</code></p>
+<h4 id="file"><em>file</em></h4>
+<p>The file parameter allows you to define an external file that contains your code to be displayed. This is done by giving a path to that file, starting from the root directory of your site.
+For example, a HTML file named <em>&lsquo;mycode.html&rsquo;</em> you wish to link that is in the <em>docs/code/</em> directory can be defined as follows: <code>file=&ldquo;code/mycode.html&rdquo;</code>.</p>
 
 
     
@@ -223,7 +333,8 @@
 
     <h4 class="text-white text-center">Read more</h4>
 
-    <div class="d-flex justify-content-center"><a class="p-1 ml-3 d-inline-block text-white text-right" href="https://kodawari.jun3010.me/getting-started/" title="Getting started">Getting started<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/childpages/" title="Childpages"><i class="fas fa-chevron-left p-1"></i>Childpages</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/collapse/" title="Collapse">Collapse<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 
