@@ -34,7 +34,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "More from us"
-url = "https://vantage-design.com"
+url = "https://jun3010.me"
 weight = 1
 
 [[menu.shortcuts]]
