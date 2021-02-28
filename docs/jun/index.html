@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="canonical" href="https://kodawari.jun3010.me/shortcodes/lead/">
+    <link rel="alternate" type="application/rss+xml" href="https://kodawari.jun3010.me/jun/index.xml" title="こだわりらいふ" />
+    <link rel="canonical" href="https://kodawari.jun3010.me/jun/">
 
     <title>
         
-        Lead | こだわりらいふ
+        プロフィール | こだわりらいふ
         
     </title>
 
@@ -74,12 +75,12 @@
         
         <a class="nav-link p-0" href="https://kodawari.jun3010.me/configuration/"><h6>Configuration</h6></a>
     </li>
-    <li data-nav-id="/jun/" class="nav-item my-1
+    <li data-nav-id="/jun/" class="nav-item my-1 parent active
         ">
         
         <a class="nav-link p-0" href="https://kodawari.jun3010.me/jun/"><h6>プロフィール</h6></a>
     </li>
-    <li data-nav-id="/shortcodes/" class="nav-item my-1 parent haschildren
+    <li data-nav-id="/shortcodes/" class="nav-item my-1 haschildren
         ">
         
         <a class="nav-link p-0" href="https://kodawari.jun3010.me/shortcodes/"><h6>Shortcodes</h6></a>
@@ -120,7 +121,7 @@
                     Doublecode
                 </a>
         </li>
-        <li data-nav-id="/shortcodes/lead/" class="nav-item my-1 active">
+        <li data-nav-id="/shortcodes/lead/" class="nav-item my-1">
                 
                  <a href="https://kodawari.jun3010.me/shortcodes/lead/" class="nav-link p-0">
                     Lead
@@ -149,7 +150,13 @@
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
 	<nav id="TableOfContents">
   <ul>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#page-ordering">Page ordering</a></li>
+    <li><a href="#table-of-contents">Table of contents</a></li>
+    <li><a href="#logo">Logo</a></li>
+    <li><a href="#google-analytics">Google Analytics</a></li>
+    <li><a href="#read-more-navigation">Read more navigation</a></li>
+    <li><a href="#search">Search</a></li>
+    <li><a href="#custom-css">Custom CSS</a></li>
   </ul>
 </nav>
 </div>
@@ -157,15 +164,16 @@
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
-<h1>Lead</h1>
+<h1>プロフィール</h1>
 
-<p>The lead shortcode creates a paragraph with the <em>lead</em> class to make it stand out. Great for introductions or summaries.</p>
 <p class="lead">
-    I&rsquo;m a lead paragraph. That means I&rsquo;m more important. And you can see that.
+    Customize and tweak Ace using a number of configuration options.
 </p>
 
-<h2 id="usage">Usage</h2>
-<p>Simply place the following shortcode on the page
+<h2 id="page-ordering">Page ordering</h2>
+<p>By default, pages are sorted on the weight assigned to them in their <code>frontmatter</code>. This is set in <code>config.toml</code>, using <code>orderSectionsby = &ldquo;weight&rdquo;</code>. Change this to <code>&ldquo;title&rdquo;</code> to sort pages alphabetically based on their title instead. Alternatively, do not assign a weight to any pages and it will also sort them alphabetically on their title.</p>
+<h2 id="table-of-contents">Table of contents</h2>
+<p>By default, a table of contents (ToC) is generated for each page in the right side menu. This can be disabled using:</p>
 
 
 
@@ -180,22 +188,97 @@
 
 <div class="position-relative">
     <div class="position-absolute" style="right:0;">
-        <button class="btn btn-light" data-clipboard-target="#clipboard_b5958eb8ee">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_04197ee706">
         Copy
         </button>
     </div>
-    <div id="clipboard_b5958eb8ee">
-    <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
-{{<span style="color:#111">&lt;</span> <span style="color:#f92672">lead</span> <span style="color:#111">&gt;</span>}} [content] {{<span style="color:#111">&lt;</span> <span style="color:#111">/</span><span style="color:#f92672">lead</span> <span style="color:#111">&gt;</span>}}
+    <div id="clipboard_04197ee706">
+    <pre><code class="language-<nil>" data-lang="<nil>">
+toc = false
 
-</code></pre></div>
+</code></pre>
     </div>
 </div>
 
 
 
-</p>
 
+<p>in the <code>config.toml</code> or the <code>frontmatter</code> (a page&rsquo;s markdown file) for a page-wide or page-specific disabling of the ToC respectively.</p>
+<h2 id="logo">Logo</h2>
+<p>An optional site logo can be specified:</p>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_f7433e8458">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_f7433e8458">
+    <pre><code class="language-<nil>" data-lang="<nil>">
+site_logo = /logo.svg
+
+</code></pre>
+    </div>
+</div>
+
+
+
+
+<h2 id="google-analytics">Google Analytics</h2>
+<p>Enable Google Analytics by adding your GA tracking ID to the <code>config.toml</code> file, at:
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_77a1e5ce9a">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_77a1e5ce9a">
+    <pre><code class="language-<nil>" data-lang="<nil>">
+googleAnalytics = &quot;XX-XXXXXXXXX-X&quot;
+
+</code></pre>
+    </div>
+</div>
+
+
+
+
+Where <code>XX-XXXXXXXXX-X</code> is your tracking ID.</p>
+<h2 id="read-more-navigation">Read more navigation</h2>
+<p>In <code>config.toml</code> or a page&rsquo;s <code>frontmatter</code>, set <code>disableReadmoreNav = true</code> to disable the prev/next buttons at the bottom of every page.</p>
+<h2 id="search">Search</h2>
+<p>Disable search by setting <code>disableSearch = true</code> in <code>config.toml</code>.</p>
+<p>The local search feature is based on the content of <code>index.json</code>, which is generated based on a configurable template.
+Search results are presented as a drop-down list attached to the search input field while typing.</p>
+<h2 id="custom-css">Custom CSS</h2>
+<p>You can override the built-in css by using your own. Just put your own css files in the <code>static</code> directory of your website (the one in the theme directory also works but is not recommended) and modify the <code>custom_css</code> parameter in your config file. The path referenced in the parameter should be relative to the <code>static</code> folder. These css files will be added through the <code>header</code> partial after the built-in css file.</p>
+<p>For example, if your css files are <code>static/css/custom.css</code> and <code>static/css/custom2.css</code> then add the following to the config file:</p>
+<pre><code>    [params]
+      custom_css = [&quot;css/custom.css&quot;,&quot;css/custom2.css&quot;]
+</code></pre>
 
     
 
@@ -206,8 +289,8 @@
 
     <h4 class="text-white text-center">Read more</h4>
 
-    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="https://kodawari.jun3010.me/shortcodes/doublecode/" title="Doublecode"><i class="fas fa-chevron-left p-1"></i>Doublecode</a>
-        <a class="p-1 ml-3 d-inline-block text-white text-right" href="https://kodawari.jun3010.me/shortcodes/panel/" title="Panel">Panel<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="https://kodawari.jun3010.me/configuration/" title="Configuration"><i class="fas fa-chevron-left p-1"></i>Configuration</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="https://kodawari.jun3010.me/shortcodes/" title="Shortcodes">Shortcodes<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

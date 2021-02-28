@@ -7,10 +7,6 @@
   </url>
   
   <url>
-    <loc>https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/alerts/</loc>
-  </url>
-  
-  <url>
     <loc>https://kodawari.jun3010.me/getting-started/</loc>
   </url>
   
@@ -23,10 +19,6 @@
   </url>
   
   <url>
-    <loc>https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/buttons/</loc>
-  </url>
-  
-  <url>
     <loc>https://kodawari.jun3010.me/configuration/</loc>
   </url>
   
@@ -35,11 +27,11 @@
   </url>
   
   <url>
-    <loc>https://kodawari.jun3010.me/shortcodes/childpages/</loc>
+    <loc>https://kodawari.jun3010.me/jun/</loc>
   </url>
   
   <url>
-    <loc>https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/childpages/</loc>
+    <loc>https://kodawari.jun3010.me/shortcodes/childpages/</loc>
   </url>
   
   <url>
@@ -47,15 +39,7 @@
   </url>
   
   <url>
-    <loc>https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/</loc>
-  </url>
-  
-  <url>
     <loc>https://kodawari.jun3010.me/shortcodes/code/</loc>
-  </url>
-  
-  <url>
-    <loc>https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/code/</loc>
   </url>
   
   <url>
@@ -63,15 +47,7 @@
   </url>
   
   <url>
-    <loc>https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/collapse/</loc>
-  </url>
-  
-  <url>
     <loc>https://kodawari.jun3010.me/shortcodes/doublecode/</loc>
-  </url>
-  
-  <url>
-    <loc>https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/doublecode/</loc>
   </url>
   
   <url>
@@ -79,15 +55,7 @@
   </url>
   
   <url>
-    <loc>https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/lead/</loc>
-  </url>
-  
-  <url>
     <loc>https://kodawari.jun3010.me/shortcodes/panel/</loc>
-  </url>
-  
-  <url>
-    <loc>https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/panel/</loc>
   </url>
   
   <url>
@@ -100,10 +68,6 @@
   
   <url>
     <loc>https://kodawari.jun3010.me/shortcodes/table/</loc>
-  </url>
-  
-  <url>
-    <loc>https://kodawari.jun3010.me/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/table/</loc>
   </url>
   
   <url>
