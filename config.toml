@@ -32,7 +32,7 @@ menushortcutsnewtab = true # set true to open shortcuts links to a new tab/windo
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-#[[menu.shortcuts]]
-#name = "さおとめらいふ"
-#url = "https://jun3010.me"
-#weight = 1
+[[menu.shortcuts]]
+name = "さおとめらいふ"
+url = "https://jun3010.me"
+weight = 1
