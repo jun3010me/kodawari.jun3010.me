@@ -2,7 +2,7 @@ baseURL = "https://kodawari.jun3010.me"
 
 languageCode = "jp"
 DefaultContentLanguage = "jp"
-title = "Ace documentation"
+title = "こだわりらいふ"
 theme = "ace-documentation"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
