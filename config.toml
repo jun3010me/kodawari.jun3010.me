@@ -7,7 +7,7 @@ theme = "ace-documentation"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "jp"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
