@@ -19,7 +19,7 @@ enableMissingTranslationPlaceholders = false
 [params]
 
     # Source Code repository section
-    description = "put your description"
+    description = "魚住惇の知的生産メモ"
     github_repository = "https://github.com/jun3010me/kodawari.jun3010.me"
     version = "0.9.6"
 
