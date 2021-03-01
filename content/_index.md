@@ -9,22 +9,7 @@ images:
 - images/pexels-photo-196666.jpeg
 ---
 
-# Hugo Techdoc Theme
+#  こだわりらいふ
+愛知県立高校で働く情報科教諭、魚住惇のこだわりをメモしていくサイトです。
 
-## The Techdoc is a Hugo Theme for technical documentation.
-
-## Features
-
-* Modern, Simple layout
-* Responsive web design
-* Documentation menu (Select [Menu style](getting-started/screenshot/#menu-style))
-* [Table Of Contents](sample/table-of-contents/) for the page (selective)
-* [Theme color](getting-started/screenshot/#theme-color)
-* [Edit link](getting-started/screenshot/#edit-link) to documentation repository
-* [Custom Shortcodes](sample/custom-shortcodes/)
-  * Code highlight with clipboard
-  * Alert panel
-  * Button
-* [Search Shortcode](sample/search-shortcode/) powered by [Algolia](https://www.algolia.com/)
-* Open Graph
-* Analytics with Google Analytics, Google Tag Manager
+現在更新中
