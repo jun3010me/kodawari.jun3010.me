@@ -11,7 +11,7 @@ publishDir = "docs"
 hasCJKLanguage = true
 metaDataFormat = "yaml"
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "jp"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
@@ -71,6 +71,7 @@ enableMissingTranslationPlaceholders = false
     algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
 
 # Global menu section
+# ここがメニューの設定
 # See https://gohugo.io/content-management/menus/
 [menu]
     [[menu.main]]
