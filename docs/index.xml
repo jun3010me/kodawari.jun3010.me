@@ -8,6 +8,24 @@
     <language>jp</language>
     <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://kodawari.jun3010.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>iPadは教職員割引で購入できる</title>
+      <link>https://kodawari.jun3010.me/ipad/ipad%E3%81%AF%E6%95%99%E8%81%B7%E5%93%A1%E5%89%B2%E5%BC%95%E3%81%A7%E8%B3%BC%E5%85%A5%E3%81%A7%E3%81%8D%E3%82%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kodawari.jun3010.me/ipad/ipad%E3%81%AF%E6%95%99%E8%81%B7%E5%93%A1%E5%89%B2%E5%BC%95%E3%81%A7%E8%B3%BC%E5%85%A5%E3%81%A7%E3%81%8D%E3%82%8B/</guid>
+      <description>新学期を始めよう - 最高18,000円分のApple Storeギフトカード - 学生割引 - 教育 - Apple（日本） 更に今なら、学割キャンペーンでA</description>
+    </item>
+    
+    <item>
+      <title>今使っているiPad</title>
+      <link>https://kodawari.jun3010.me/ipad/%E4%BB%8A%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8Bipad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kodawari.jun3010.me/ipad/%E4%BB%8A%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8Bipad/</guid>
+      <description>2021年3月現在使っているiPadは、iPad Pro 2021年モデル 11インチ セルラーモデル。 容量は256GBにした。 Magic Keyboardを装着</description>
+    </item>
+    
+    <item>
       <title>Markdown Syntax</title>
       <link>https://kodawari.jun3010.me/sample/markdown-syntax/</link>
       <pubDate>Tue, 17 Nov 2020 15:26:15 +0000</pubDate>
@@ -408,15 +426,6 @@ More complete instructions are available at Install Hugo
 Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
  Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>ロイロノート認定ティーチャーになりたい</title>
-      <link>https://kodawari.jun3010.me/test/%E3%83%AD%E3%82%A4%E3%83%AD%E3%83%8E%E3%83%BC%E3%83%88%E8%AA%8D%E5%AE%9A%E3%83%86%E3%82%A3%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%84/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kodawari.jun3010.me/test/%E3%83%AD%E3%82%A4%E3%83%AD%E3%83%8E%E3%83%BC%E3%83%88%E8%AA%8D%E5%AE%9A%E3%83%86%E3%82%A3%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%84/</guid>
-      <description>この制度をずっと待っていた。 https://scrapbox.io/loilo-teacher-support/ロイロ認定ティーチャーになろ</description>
     </item>
     
   </channel>
