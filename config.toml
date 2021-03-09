@@ -84,6 +84,11 @@ enableMissingTranslationPlaceholders = false
         url = "https://twitter.com/jun3010me"
         weight = 2
 
+    [[menu.main]]
+        name = "お問い合わせ(別サイト)"
+        url = "https://jun3010.me/contact"
+        weight = 3
+
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
 [markup]
