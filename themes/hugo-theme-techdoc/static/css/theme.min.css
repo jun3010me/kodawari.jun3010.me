@@ -71,7 +71,7 @@
     .kaerebalink-image img,
     .booklink-image img {
        margin:0 !important;
-       width:100%;
+       width:auto;
        height:auto;
     }
     .kaerebalink-info,
