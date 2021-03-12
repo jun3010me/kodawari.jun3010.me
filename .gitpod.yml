@@ -1,6 +1,6 @@
 tasks:
   - init: brew install hugo
-    command: hugo server -D &
+    command: hugo server --ignoreCache -D &
 ports:
   - port: 1313
     onOpen: open-preview
