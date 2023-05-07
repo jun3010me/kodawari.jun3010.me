@@ -1,6 +1,7 @@
 ---
-title: "これはタイトルね"
+title: "こだわったことの記録"
 date:
 ---
 
-ここに文字を入れるとトップページ？
+このサイトは、Hugo + GitHub Pages + GitHub Actionで作りました。
+編集環境はThinkPad X280にインストールしたVSCode、mdファイルを書いてコミットプッシュするだけ。
