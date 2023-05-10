@@ -13,8 +13,7 @@ Proxmark3を使うためには、コマンドを扱う知識が必要となる�
 本来なら、GitHubに公開されているソースコードを自分でコンパイルする必要があるが、ここではそれを省くために、予めWindows向けにビルドされているものを有難くダウンロードすることにする。
 
 <a href="https://www.proxmarkbuilds.org/" style="text-decoration: none;"><div class="link-box"><div class="img-box"><div style="background-image: url('');"></div></div><div class="text-box"><p class="title">Proxmarkbuilds.org</p><p class="description"></p></div></div></a>
-
-{{< figure src="/download.png" title="Screenshot" >}}
+{{< figure src="download.png" title="Screenshot" >}}
 
 使う機種に合わせてダウンロードするプログラムを選択する。
 
