@@ -14,7 +14,7 @@ Proxmark3を使うためには、コマンドを扱う知識が必要となる�
 
 <a href="https://www.proxmarkbuilds.org/" style="text-decoration: none;"><div class="link-box"><div class="img-box"><div style="background-image: url('');"></div></div><div class="text-box"><p class="title">Proxmarkbuilds.org</p><p class="description"></p></div></div></a>
 
-![image](./install/download.png)
+![image](download.png)
 
 使う機種に合わせてダウンロードするプログラムを選択する。
 
