@@ -69,9 +69,6 @@ hugo server -D
 c:\hugo\testsite>hugo server -D
 Start building sites …
 hugo v0.111.3-5d4eb5154e1fed125ca8e9b5a0315c4180dab192+extended windows/amd64 BuildDate=2023-03-12T11:40:50Z VendorInfo=gohugoio
-WARN 2023/05/20 18:05:16 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
-WARN 2023/05/20 18:05:16 found no layout file for "HTML" for kind "home": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
-WARN 2023/05/20 18:05:16 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
 
                    | EN
 -------------------+-----
