@@ -13,3 +13,11 @@ date:
 
 {{< figure src="hugo.png" title="Screenshot" >}}
 
+ダウンロードしたzipを、Cドライブ上に作成したhugoフォルダに展開する。
+
+```
+C:\hugo\bin
+    hugo.exe
+    LICENSE
+    README.md
+```
