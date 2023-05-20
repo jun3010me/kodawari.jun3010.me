@@ -93,6 +93,10 @@ Press Ctrl+C to stop
 
 Ctrl + Cでプロセスを終了できる。
 
-で、表示のとおり、「http://localhost:1313」にブラウザでアクセスすることで、ページが表示できる。
-1313はポート番号。
+で、表示のとおり、「http://localhost:1313」にブラウザでアクセスすることで、ページが表示できる。1313はポート番号。
+
+{{< figure src="image1.png" title="Not Foundと出たら成功" >}}
+
+
+ここで試しに、次のmdファイルを用意して、contentフォルダに入れてみる。
 
