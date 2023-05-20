@@ -1,4 +1,3 @@
-{{< rawhtml >}}<a href="https://gohugo.io/" style="text-decoration: none;"><div class="link-box"><div class="img-box"><div style="background-image: url('https://gohugo.io/featured.png');"></div></div><div class="text-box"><p class="title">The world’s fastest framework for building websites</p><p class="description">The world’s fastest framework for building websites</p></div></div></a>{{< /rawhtml >}}
-
+<a href="https://gohugo.io/" style="text-decoration: none;"><div class="link-box"><div class="img-box"><div style="background-image: url('https://gohugo.io/featured.png');"></div></div><div class="text-box"><p class="title">The world’s fastest framework for building websites</p><p class="description">The world’s fastest framework for building websites</p></div></div></a>
 
 まずはここがHugoの本家のサイト。だけど、ここからはダウンロードしない。実際にファイルを公開しているのはGitHubなので、そっちからダウンロードする。
