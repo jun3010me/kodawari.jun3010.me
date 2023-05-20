@@ -149,3 +149,7 @@ themes\hugo-theme-ava\exampleSite\data\welcome.json
 
 上書きするか確認してくるので、「A」で返事する。これで上書き完了。
 
+
+{{< figure src="image2.png" title="テーマの導入成功" >}}
+
+これで再びサイトを見てみると、自動で更新されている。もしテーマの導入の過程で一度サーバーを終了したなら、再度実行することで確認できる。
