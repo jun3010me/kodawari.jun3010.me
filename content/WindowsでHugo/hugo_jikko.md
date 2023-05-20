@@ -106,3 +106,46 @@ Hugoの本家サイトから良さげなテーマを探す。
 
 <a href="https://themes.gohugo.io/themes/hugo-theme-ava/" style="text-decoration: none;"><div class="link-box"><div class="img-box"><div style="background-image: url('https://themes.gohugo.io/themes/hugo-theme-ava/tn-featured.png');"></div></div><div class="text-box"><p class="title">Ava</p><p class="description">Hugo Ava Theme See online demo Code source demo Installation Install Hugo Follow the official installation guide You need the extended version Create a new Hugo site hugo new site my-site This will create a fresh Hugo site in the folder my-site. Install theme with Git Clone this repo into the themes folder cd my-site git clone https://github.com/jmau111/hugo-theme-ava.git themes/hugo-theme-ava Copy example content You can use contents generated for the demo:</p></div></div></a>
 
+インストール方法は、GitHubに書いてある通り、サイトのフォルダ内でgit cloneする。
+
+```
+git clone https://github.com/jmau111/hugo-theme-ava.git themes/hugo-theme-ava
+```
+
+そして、ReadMeの通りだと、サンプルファイルをコピーすることになっている。これをやると、とりあえずサイトを表示させることができる。
+
+```
+cp -a themes/hugo-theme-ava/exampleSite/. .
+```
+
+これはWindowsのコマンドプロンプトでは実行できない、Linux向けのコマンドなので、代わりにこっちを実行する。
+
+```
+xcopy /S /E themes\hugo-theme-ava\exampleSite\* .
+```
+
+```
+c:\hugo\testsite>xcopy /S /E themes\hugo-theme-ava\exampleSite\* .
+C:\hugo\testsite\config.toml を上書きしますか (Yes/No/All)? A
+themes\hugo-theme-ava\exampleSite\config.toml
+themes\hugo-theme-ava\exampleSite\archetypes\default.md
+themes\hugo-theme-ava\exampleSite\content\about.md
+themes\hugo-theme-ava\exampleSite\content\contact.md
+themes\hugo-theme-ava\exampleSite\content\_index.md
+themes\hugo-theme-ava\exampleSite\content\posts\example.md
+themes\hugo-theme-ava\exampleSite\content\posts\example2.md
+themes\hugo-theme-ava\exampleSite\content\posts\example3.md
+themes\hugo-theme-ava\exampleSite\content\posts\example4.md
+themes\hugo-theme-ava\exampleSite\content\posts\example5.md
+themes\hugo-theme-ava\exampleSite\content\posts\example6.md
+themes\hugo-theme-ava\exampleSite\content\posts\example7.md
+themes\hugo-theme-ava\exampleSite\content\posts\_index.md
+themes\hugo-theme-ava\exampleSite\content\posts\example8\index.md
+themes\hugo-theme-ava\exampleSite\content\posts\example8\images\shinjuku.jpg
+themes\hugo-theme-ava\exampleSite\data\social.json
+themes\hugo-theme-ava\exampleSite\data\welcome.json
+17 個のファイルをコピーしました
+```
+
+上書きするか確認してくるので、「A」で返事する。これで上書き完了。
+
