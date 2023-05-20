@@ -97,6 +97,12 @@ Ctrl + Cでプロセスを終了できる。
 
 {{< figure src="image1.png" title="Not Foundと出たら成功" >}}
 
+## Themeを導入する
+<a href="https://themes.gohugo.io/" style="text-decoration: none;"><div class="link-box"><div class="img-box"><div style="background-image: url('https://themes.gohugo.io/opengraph/gohugoio-card-base-1_huf001e7df4fd9c00c4355abac7d4ca455_242906_filter_16193305268219998852.png');"></div></div><div class="text-box"><p class="title">Complete List</p><p class="description"></p></div></div></a>
 
-ここで試しに、次のmdファイルを用意して、contentフォルダに入れてみる。
+Hugoの本家サイトから良さげなテーマを探す。
+
+今回は、Avaというテーマにしてみる。
+
+<a href="https://themes.gohugo.io/themes/hugo-theme-ava/" style="text-decoration: none;"><div class="link-box"><div class="img-box"><div style="background-image: url('https://themes.gohugo.io/themes/hugo-theme-ava/tn-featured.png');"></div></div><div class="text-box"><p class="title">Ava</p><p class="description">Hugo Ava Theme See online demo Code source demo Installation Install Hugo Follow the official installation guide You need the extended version Create a new Hugo site hugo new site my-site This will create a fresh Hugo site in the folder my-site. Install theme with Git Clone this repo into the themes folder cd my-site git clone https://github.com/jmau111/hugo-theme-ava.git themes/hugo-theme-ava Copy example content You can use contents generated for the demo:</p></div></div></a>
 
