@@ -34,6 +34,12 @@ apk search パッケージ名
 apk del パッケージ名
 ```
 
+### nanoだって使える
+```
+apk add nano
+```
+VimもEmacsもちょっとっていう方におすすめのnano
+
 ### Hugoがインストールできる
 ```
 apk add hugo
