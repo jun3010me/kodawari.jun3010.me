@@ -10,3 +10,27 @@ ishというアプリがAppStoreで公開されている。
 これがなかなか面白い。
 Alpine Linux x86版がどうやら動いているっぽい。
 
+## Alpine Linuxで使うパッケージコマンド「apk」
+apkと聞くとAndroidのアプリパッケージの拡張子と同じだけど、Alpine Linuxではこの名前のパッケージ管理システムを使う。Ubuntuでいうところのaptやapt-getに相当する。
+
+アップデートとアップグレード
+```
+apk update
+apk upgrade
+```
+
+パッケージの追加
+```
+apk add パッケージ名
+```
+
+検索
+```
+apk search パッケージ名
+```
+
+削除
+```
+apk del パッケージ名
+```
+
