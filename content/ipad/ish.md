@@ -1,5 +1,5 @@
 ---
-title: "ishが面白い"
+title: "iPadでシェルが使えるiSHが面白い"
 date:
 ---
 
