@@ -34,3 +34,21 @@ apk search パッケージ名
 apk del パッケージ名
 ```
 
+### Hugoがインストールできる
+```
+apk add hugo
+```
+これでHugoがインストールできる。ただし、バージョンが古くて、実行できない。
+
+なので、apkで参照するリポジトリを最新のものにする。
+
+```
+echo "https://dl-cdn.alpinelinux.org/alpine/v3.18/community/" >> /etc/apk/repositories
+echo "https://dl-cdn.alpinelinux.org/alpine/v3.18/main/" >> /etc/apk/repositories
+```
+
+「/etc/apk/repositories」がリポジトリのリストが記述されているファイル名。
+ここに、Alpine Linuxの最新バージョンである3.18用のmainとcommunityのURLを記述することで、apkコマンドから参照してくれるようになる。echoで追記しているけど、既存のリストを削除しなくても、新しいバージョンのパッケージを取得してくれるのでこのままで良さそう。
+
+ただし、アプリを再起動するとこのリポジトリファイルが元に戻ってしまうので、自分の場合は「repo.sh」にこのecho文を入れて、起動時に手動で実行している。どこかで自動化したいけど、今のところはこれでよし。
+
