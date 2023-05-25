@@ -40,6 +40,14 @@ apk add nano
 ```
 VimもEmacsもちょっとっていう方におすすめのnano
 
+### Apache2も動く
+```
+apk add apache2
+httpd
+```
+
+これでiPadのSafariからlocalhostにアクセスすると、テストページが表示される。
+
 ### Hugoがインストールできる
 ```
 apk add hugo
