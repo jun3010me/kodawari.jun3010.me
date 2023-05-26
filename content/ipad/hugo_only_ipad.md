@@ -19,7 +19,7 @@ iPadでGitHubを使うのにおすすめなアプリが、Working Copyだ。
 
 <div class="cstmreba"><div class="pochireba"><a href="https://apps.apple.com/jp/app/working-copy-git-client/id896694807?uo=4&at=11l7ge"><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/99/be/bd/99bebd3d-e89d-6e16-9542-9e3bb87f2bd5/Regular-Icon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/60x60bb.jpg" alt="Working Copy - Git client" width="60" height="60" class="pochi_img" ></a><div class="pochi_info"><div class="pochi_name"><a href="https://apps.apple.com/jp/app/working-copy-git-client/id896694807?uo=4&at=11l7ge">Working Copy - Git client</a></div><div class="pochi_price">無料</div><div class="pochi_seller"><a href="https://apps.apple.com/jp/developer/anders-borum/id343532883?uo=4&at=11l7ge">Anders Borum</a></div><div class="pochi_time">(2023.05.26時点)</div><div class="pochi_post">posted with <a href="http://pochireba.com" rel="nofollow" target="_blank">ポチレバ</a></div></div><div class="pochireba-footer"></div></div></div>
 
-{{< figure src="IMG_5076.jpeg" title="リポジトリ登録の様子" >}}
+{{< figure src="IMG_5076.png" title="リポジトリ登録の様子" >}}
 このアプリで、さっき作成したリポジトリを登録することで、iPadの「ファイル」アプリから直接編集ができるようになる。
 
 ## iSHでHugoをインストール
