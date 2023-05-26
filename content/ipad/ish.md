@@ -84,3 +84,7 @@ fatal error: unexpected signal during runtime execution
 
 もしエラーで固まってしまったら、アプリを一旦閉じてから起動し直すしか方法はない。しかも起動し直すとリポジトリは元通りになっているので注意が必要。
 
+### ファイルアプリからディレクトリ群が丸見え
+{{< figure src="IMG_5077.jpeg" title="iSHを有効にすると、これが見える" >}}
+
+最高かよ。
