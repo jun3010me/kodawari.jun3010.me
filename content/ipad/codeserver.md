@@ -61,4 +61,4 @@ $sudo systemctl start code-server
 ```
 これでサービスとして有効になったし、起動もした。
 
-あとはよしなに
+あとはよしなに。
