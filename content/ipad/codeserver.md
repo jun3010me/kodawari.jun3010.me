@@ -1,5 +1,5 @@
 ---
-title: "iPadでVSCodeを使いたいからCodeServerを立てた"
+title: "iPadでVSCodeを使いたいからRaspberry Pi 4でCodeServerを立てた"
 date:
 ---
 
