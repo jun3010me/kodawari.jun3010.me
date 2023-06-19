@@ -35,7 +35,7 @@ $sudo mv /lib/systemd/system/code-server@.service /lib/systemd/system/code-serve
 code-server.serviceのファイル名に@がついていたので、mvコマンドで@を取ってから
 
 ```
-sudo nano /lib/systemd/system/code-server.service
+$sudo nano /lib/systemd/system/code-server.service
 ```
 ファイル名を変更したcode-server.serviceをエディタで以下の通りに編集する。
 
